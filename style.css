@@ -287,6 +287,8 @@ background-color: var(--footer);
 padding: 100px 50px;
 display: flex;
 justify-content: space-between;
+width: 1500px;
+max-width: 2800px;
 }
 .footer-2-cont li, 
 .footer-3-cont li,
