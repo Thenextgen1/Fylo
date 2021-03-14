@@ -45,8 +45,6 @@ nav, h1, h2, h3, h4, h5, p {
     color: var(--white);
 }
 header {
-    max-width: 2800px;
-    height: 93vh;
     width: 100%;
 }
 header .nav1{
@@ -75,9 +73,9 @@ i{
 .intro {
     position: relative;
     left: 50%;
-    top: 305px;
+    top: 50%;
+    margin-top: 300px;
     transform: translate(-50%, -50%);
-    max-width: 2800px;
     background: var(--intro);
     width: 100%;
 }
@@ -284,14 +282,14 @@ cursor: pointer;
     font-size: 10px;
 }
 .footer {
-position: relative;
-top: 1750px;
+position: absolute;
+top: 2250px;
 background-color: var(--footer);
 padding: 100px 50px;
 display: flex;
 justify-content: space-between;
-width: 100%;
-max-width: 2800px;
+width: max-content;
+max-width: 2100px;
 }
 .footer-2-cont li, 
 .footer-3-cont li,
@@ -327,4 +325,53 @@ i.fab {
 .footer .footer-showcase-logo {
     position: absolute;
     top: 30px;
+}
+
+@media(max-width: 576px) {
+
+    .intro-img {
+        width: 50%;
+    }
+    header {
+       width: max-content;
+    }
+    .intro {
+        width: max-content;
+        margin-top: 200px;
+    }
+    .benefits {
+        top: 1000px;
+        grid-template-columns: 100%;
+       left: 60%;
+       
+        width: fit-content;
+    }
+    .img-benefits {
+        width: 100px;
+        height: 100px;
+    }
+    .benefits div p {
+       margin: 20px;
+    }
+    .productivity {
+        flex-direction: column;
+        top: 1400px;
+    }
+    .productivity img {
+        width: max-content;
+    }
+    .intro-p1 {
+        text-align: center;
+    }
+    .testimonies {
+        top: 2500px;
+    }
+}
+
+@media(max-width: 376px) {
+    .benefits {
+        transform: translate(-25%, -50%);
+        margin-top: 50px;
+    }
+ 
 }
