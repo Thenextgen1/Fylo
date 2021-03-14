@@ -281,13 +281,13 @@ cursor: pointer;
     font-size: 10px;
 }
 .footer {
-position: absolute;
-top: 2300px;
+position: relative;
+top: 1750px;
 background-color: var(--footer);
 padding: 100px 50px;
 display: flex;
 justify-content: space-between;
-width: 1500px;
+width: 1250px;
 max-width: 2800px;
 }
 .footer-2-cont li, 
