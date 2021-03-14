@@ -47,6 +47,7 @@ nav, h1, h2, h3, h4, h5, p {
 header {
     max-width: 2800px;
     height: 93vh;
+    width: 100%;
 }
 header .nav1{
     display: flex;
@@ -55,6 +56,7 @@ header .nav1{
     margin: auto;
     padding: 20px 20px;
     background: var(--intro);
+    width: 100%;
     
 }
 
@@ -77,6 +79,7 @@ i{
     transform: translate(-50%, -50%);
     max-width: 2800px;
     background: var(--intro);
+    width: 100%;
 }
 .intro-img {
     position: relative;
@@ -287,7 +290,7 @@ background-color: var(--footer);
 padding: 100px 50px;
 display: flex;
 justify-content: space-between;
-width: 1250px;
+width: 100%;
 max-width: 2800px;
 }
 .footer-2-cont li, 
