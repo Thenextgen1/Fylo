@@ -273,6 +273,8 @@ border-radius: 20px;
 text-decoration: none;
 border-color: transparent;
 cursor: pointer;
+font-family: 'Raleway', sans-serif;
+font-weight: 900;
 }
 .signup p {
     margin-top: 0;
@@ -386,7 +388,8 @@ i.fab {
     .footer {
         flex-direction: column;
         top: 3000px;
-        width: 576px;
+        width: 700px;
+        overflow-x: hidden;
         margin-top: 70px;
         padding-left: 5px;
         margin-right: 0px;
@@ -410,8 +413,16 @@ margin-left: 0px;
     justify-content: space-around;
 }
 .footer-showcase-logo {
-    left: 50%;
+    left: 40%;
     font-size: 45px;
+}
+.get-started-b {
+ padding: 10px 60px;
+ margin-top: 10%;
+ transform: translateX(3%);
+}
+.help_text_style {
+    display: none;
 }
 }
 
@@ -440,7 +451,7 @@ margin-left: 0px;
         left: 50%;
     }.footer {
         top: 3100px;
-        width: 700px;
+        width: 800px;
         overflow-x: hidden;
         margin-right: 0 !important;
     }
