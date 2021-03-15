@@ -281,6 +281,7 @@ cursor: pointer;
     color: var(--red);
     font-size: 10px;
 }
+
 .footer {
 position: absolute;
 top: 2250px;
@@ -288,13 +289,15 @@ background-color: var(--footer);
 padding: 100px 50px;
 display: flex;
 justify-content: space-between;
-width: max-content;
-max-width: 2100px;
+width: 100%;
 }
 .footer-2-cont li, 
 .footer-3-cont li,
 .footer-4-cont li{
     padding: 5px 5px;
+}
+.footer-2-img {
+    padding-right: 10px;
 }
 .footer-1 {
     display: flex;
@@ -342,8 +345,9 @@ i.fab {
     .benefits {
         top: 1000px;
         grid-template-columns: 100%;
-       left: 60%;
-       
+       left: 50%;
+       margin-top: 30px;
+       margin-left: 15%;
         width: fit-content;
     }
     .img-benefits {
@@ -364,14 +368,80 @@ i.fab {
         text-align: center;
     }
     .testimonies {
-        top: 2500px;
+        top: 2200px;
+        flex-direction: column;
+        width: fit-content;
+        margin-left: 10px;
     }
+    .testimonies-1 {
+        margin: 20px;
+    }
+    .testimonies-2, 
+    .testimonies-3 {
+        margin: 20px;
+    }
+    .get-started {
+        top: 2750px;
+    }
+    .footer {
+        flex-direction: column;
+        top: 3000px;
+        width: 576px;
+        margin-top: 70px;
+        padding-left: 5px;
+        margin-right: 0px;
+    }
+.footer-2-cont li, 
+.footer-3-cont li,
+.footer-4-cont li{
+margin-left: 0px;
+}
+.footer-1 {
+    padding-left: 20px;
+}
+.footer-1 img {
+   margin-left: 25px;
+}
+.footer-1 p {
+    padding-left: 15px;
+}
+.footer-5 {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-showcase-logo {
+    left: 50%;
+    font-size: 45px;
+}
 }
 
-@media(max-width: 376px) {
+ @media(min-width: 400px) and (max-width: 496px) {
     .benefits {
-        transform: translate(-25%, -50%);
+        transform: translate(-40%, -50%);
         margin-top: 50px;
     }
  
 }
+@media(min-width: 300px) and (max-width: 400px) {
+    .benefits {
+        transform: translate(-25%, -50%);
+        margin-top: 50px;
+        margin-left: 20%;
+        margin-bottom: 30px;
+    }
+    .productivity img {
+        width: fit-content;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }.testimonies {
+        left: 50%;
+    }.get-started {
+        top: 2850px;
+        left: 50%;
+    }.footer {
+        top: 3100px;
+        width: 700px;
+        overflow-x: hidden;
+        margin-right: 0 !important;
+    }
+} 
