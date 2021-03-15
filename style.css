@@ -39,7 +39,9 @@ body {
     overflow-x: hidden;
     
 }
-
+.body-image {
+    
+}
 nav, h1, h2, h3, h4, h5, p {
     font-family: 'Raleway', sans-serif;
     color: var(--white);
@@ -117,6 +119,7 @@ cursor: pointer;
     left: 45%;
     top: 900px;
     transform: translate(-50%, -50%);
+    margin-top: 30px;
 }
 
 .img-benefits{
