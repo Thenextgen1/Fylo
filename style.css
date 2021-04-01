@@ -435,7 +435,7 @@ margin-left: 0px;
 
  @media(min-width: 400px) and (max-width: 496px) {
     .benefits {
-        transform: translate(-40%, -50%);
+        transform: translate(-25%, -60%);
 
         margin-top: 190px;
     }
@@ -450,6 +450,9 @@ margin-left: 0px;
     }
     .productivity {
         top: 2000px
+    }
+    header {
+width: max-content;
     }
     
     .productivity img {
