@@ -477,7 +477,7 @@ width: max-content;
     }
 } 
 
-@media only screen and (max-width:393px) {
+@media(max-width: 393px) {
     body {
         overflow-x: hidden !important;
     }
