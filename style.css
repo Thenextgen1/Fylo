@@ -529,5 +529,7 @@ width: max-content;
     }.footer {
         top: 250em;
         width: 32em;
+    }.footer-1 p {
+        line-height: 1.6;
     }
 }
