@@ -533,3 +533,13 @@ margin-left: 0px;
         margin-bottom: 390px; 
     }
 }
+@media(min-width: 310px) and (max-width: 350px) {
+    .benefits {
+        transform: translate(-15%, -45%);
+    }.intro-img {
+        width: 20em;
+    }
+    .intro-p {
+        font-size: 1.2em;
+    }
+}
