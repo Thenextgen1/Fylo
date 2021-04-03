@@ -451,8 +451,13 @@ margin-left: 0px;
     body {
         overflow-x: hidden !important;
     }
+    header {
+        width: 32em;
+        
+    }
     .intro {
         margin-top: 15em;
+        width: 32em;
     }
     .intro-img {
         width: 20em;
@@ -465,7 +470,7 @@ margin-left: 0px;
         margin-right: 1.3em;
         line-height: 2;
     }.benefits {
-        left: 10%;
+        left: 5%;
         top: 70em;
     }.productivity img {
         width: 25em;
@@ -505,7 +510,7 @@ margin-left: 0px;
 }
 @media(min-width: 300px) and (max-width: 400px) {
     .benefits {
-        transform: translate(-10%, -45%);
+        transform: translate(-22%, -45%);
         margin-top: 150px;
         margin-left: 20%;
         margin-bottom: 390px;
@@ -541,5 +546,79 @@ margin-left: 0px;
     }
     .intro-p {
         font-size: 1.2em;
+    }
+}
+@media(min-width: 400px) and (max-width: 476px) {
+    body {
+        overflow-x: hidden !important;
+    }
+    header {
+        width: 32em;
+        
+    }
+    .intro {
+        margin-top: 15em;
+        width: 32em;
+    }
+    .intro-img {
+        width: 20em;
+        left: 15%;
+    }.intro-p {
+        font-size: 1.5em;
+    }.intro1-p {
+        font-size: 1em;
+        margin-left: 1.3em;
+        margin-right: 1.3em;
+        line-height: 2;
+    }.benefits {
+        left: 35%;
+        top: 80em;
+    }.productivity img {
+        width: 25em;
+    }.productivity {
+        top: 140em;
+        margin-right: 20px;
+        margin-left: 0px;
+    }.intro-p1 {
+        font-size: 1.5em;
+        margin-top: 50px;
+        text-align: center;
+        position: relative;
+        left: 0;
+    }.testimonies {
+        top: 192em;
+        left: 10%;
+        width: 23em;
+    }.benefits div h2 {
+        text-align: center;
+        left: 55%;
+    }
+    .benefits div p {
+        line-height: 1.6;
+    }
+    .img-benefits {
+        left: 55%;
+    }
+    .get-started {
+        top: 240em;
+        left: 10%;
+    }.footer {
+        top: 260em;
+        width: 32em;
+    }.footer-1 p {
+        line-height: 1.6;
+    }
+}
+@media(min-width: 460px) and (max-width: 476px) {
+    .footer,
+    header,
+    .intro {
+        width: 30em;
+    }
+    .benefits {
+        left: 20%;
+    }
+    body {
+        overflow-x: hidden;
     }
 }
