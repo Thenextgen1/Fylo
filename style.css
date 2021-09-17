@@ -43,6 +43,7 @@ header {
     justify-content: space-between;
     padding: 2em 2em;
     font-family: 'Raleway', sans-serif;
+align-items: center;
 }
 nav ul li {
     display: inline-block;
@@ -274,4 +275,73 @@ margin-right: 2em;
 .fa-map-marker-alt {
     color: white;
 }
- 
+@media(max-width: 700px) {
+    .title img {
+        width: 2em;
+    }
+    .nav-item a {
+        font-size: 0.7em;
+    }
+   .intro div img {
+       max-width: 100%;
+   }
+   .intro div {
+       background-image: url(/images/bg-curvy-mobile.svg);
+       background-size: 100% 100%;
+       background-repeat: no-repeat;
+       background-position: 0em 15rem;
+    margin: 3em;
+    }
+    .intro div h2 {
+        font-size: 1em;
+    }
+    .intro div > p {
+        font-size: 0.7em;
+        opacity: 0.7;
+        letter-spacing: 1px;
+        line-height: 1.5;
+    }
+    .showcase {
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 10em 2em;
+        row-gap: 10em;
+    }
+    .productivity {
+        flex-direction: column;
+    }
+    .productivity img {
+        max-width: 100%;
+    }
+    .testimonials {
+        flex-direction: column;
+        margin: 0 2em 2em 2em;
+    }
+    .testimonials div {
+       margin-bottom: 2em;
+        padding: 0.8em 0.8em 0.8em 0.8em;
+    }
+    .testimonials div p {
+        color: var(--white);
+        font-size: 0.8em;
+
+    }
+    .access {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .email {
+        width: auto;
+        margin-bottom: 2em;
+    }
+    .access p:nth-of-type(1) {
+       text-align: justify;
+        margin-top: 1em;
+        color: var(--white);
+        font-size: 0.8em;
+        opacity: 0.8;
+    }
+    .footer div {
+        flex-direction: column;
+    }
+}
