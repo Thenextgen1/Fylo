@@ -275,6 +275,15 @@ margin-right: 2em;
 .fa-map-marker-alt {
     color: white;
 }
+.lorem {
+    margin-left: 2em;  
+}
+.lorem1 {
+    margin-left: 3em;
+}
+
+
+
 @media(max-width: 700px) {
     .title img {
         width: 2em;
@@ -340,15 +349,19 @@ margin-right: 2em;
 
     }
     .access {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 3em;
+        margin-right: 3em;
+        padding: 2em 1em;
     }
     .email {
         width: auto;
         margin-bottom: 2em;
     }
+    .access h3 {
+        font-size: 1.2em;
+    }
     .access p:nth-of-type(1) {
-       text-align: justify;
+       text-align: center;
         margin-top: 1em;
         color: var(--white);
         font-size: 0.8em;
@@ -356,5 +369,17 @@ margin-right: 2em;
     }
     .footer div {
         flex-direction: column;
+    }
+    .footer div ul > li {
+        padding-bottom: 0.6em;
+        font-size: 0.8em;
+    }
+    .fa-phone-alt,
+    .fa-envelope {
+        margin-right: 1em;
+    }
+    #about,
+    #contact {
+        margin-top: 2em;
     }
 }
