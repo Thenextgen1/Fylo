@@ -32,7 +32,12 @@ a {
     cursor: pointer;
     color: var(--white);
 }
-
+h2,
+h3,
+h4,
+h1 {
+    font-family: 'Raleway', sans-serif !important;
+}
 body {
     background-color: var(--intro);
     font-family: 'Open Sans', sans-serif;
@@ -210,7 +215,7 @@ main {
 .email {
     outline: none;
     border: none;
-    width: 28em;
+    width: auto;
     border-radius: 18px;
     padding: 0.9em 2em;
     margin-top: 2em;
@@ -276,33 +281,35 @@ margin-right: 2em;
     color: white;
 }
 .lorem {
-    margin-left: 2em;  
+    display: flex;
+    justify-content: space-between;
 }
-.lorem1 {
-    margin-left: 3em;
+.lorem li p {
+    margin-left: 1.3em;
 }
 
 
-
-@media(max-width: 700px) {
+@media(max-width: 800px) {
     .title img {
         width: 2em;
     }
     .nav-item a {
         font-size: 0.7em;
     }
+    .intro {
+        margin-left: 2em;
+        margin-right: 2em;
+        padding-bottom: 3em;
+        
+    }
    .intro div img {
        max-width: 100%;
    }
    .intro div {
-       background-image: url(/images/bg-curvy-mobile.svg);
-       background-size: 100% 100%;
-       background-repeat: no-repeat;
-       background-position: 0em 15rem;
-    margin: 3em;
+       background-image: none;
     }
-    .intro div h2 {
-        font-size: 1em;
+    .intro div button {
+        margin-top: 2em;
     }
     .intro div > p {
         font-size: 0.7em;
@@ -343,15 +350,24 @@ margin-right: 2em;
     }
     .testimonials div p {
         color: var(--white);
-        font-size: 0.7em;
+        font-size: 0.69em;
         line-height: 1.5;
         letter-spacing: 1px;
 
     }
+    .get-started {
+        padding: 0.7em 1em;
+        margin-left: 0;
+    }
     .access {
-        margin-left: 3em;
-        margin-right: 3em;
+        margin-left: 1.5em;
+        margin-right: 1.5em;
         padding: 2em 1em;
+    }
+    .access div {
+        display: flex;
+        flex-direction: column;
+
     }
     .email {
         width: auto;
@@ -381,5 +397,37 @@ margin-right: 2em;
     #about,
     #contact {
         margin-top: 2em;
+    }
+}
+@media(min-width: 801px) and (max-width: 950px) {
+    .footer div {
+        flex-direction: column;
+    }
+    .testimonials {
+        flex-direction: column;
+      margin-left: 2em;
+      margin-right: 0;
+    }
+    .testimonials div {
+        margin-top: 2em;
+    }
+    .access {
+        margin-left: 1.5em;
+        margin-right: 1.5em;
+        padding: 2em 1em;
+    }
+    .access div {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .email {
+        width: auto;
+        margin-bottom: 2em;
+    }
+}
+@media(min-width: 1000px) {
+    .get-started{
+        margin-top: 1em;
     }
 }
