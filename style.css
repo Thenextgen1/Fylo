@@ -399,7 +399,7 @@ margin-right: 2em;
         margin-top: 2em;
     }
 }
-@media(min-width: 801px) and (max-width: 950px) {
+@media(min-width: 801px) and (max-width: 999px) {
     .footer div {
         flex-direction: column;
     }
